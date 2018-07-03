@@ -1,0 +1,16 @@
+{
+  "name": "ExampleElectronFileAssociation",
+  "author": "Richard Caceres",
+  "description": "",
+  "version": "0.1.0",
+  "devDependencies": {
+    "electron": "^2.0.3"
+  },
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --extend-info extra.plist",
+    "package2": "electron-builder --config electron-builder-config.json"
+  }
+}

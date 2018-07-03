@@ -1,0 +1,21 @@
+{
+   "appId": "com.example.app",
+   "files": ["build", "static", "index.js"],
+   "fileAssociations": [
+        {
+            "ext": ["txt", "md", "yml"],
+            "name": "Plain Text",
+            "role": "Editor"
+        }
+    ],
+    "mac": {
+        "target": [
+            {
+                "target": "dmg",
+                "arch": [
+                    "x64"
+                ]
+            }
+        ]
+    }
+}
